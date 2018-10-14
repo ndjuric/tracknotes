@@ -7,6 +7,10 @@ Make sure that nothing is listening on ports:
 ```bash
 ~ $ tar -xvzf tracknotes.tar.gz
 ```
+or
+```bash
+~ $ git clone https://github.com/ndjuric/tracknotes.git
+```
 Now you have a ./tracknotes folder.  
 ```bash
 ~ $ cd tracknotes
