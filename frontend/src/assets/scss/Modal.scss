@@ -1,0 +1,43 @@
+.add-edit-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #777;
+  min-width: 20rem;
+  max-width: 60rem;
+  width: 50%;
+  opacity: 0;
+}
+
+.add-edit-modal-in  {
+  transition: opacity 0.5s ease-in;
+  opacity: 1
+}
+
+.add-edit-modal-out {
+  transition: opacity 0.3s ease-out;
+  opacity: 0
+}
+
+.add-edit-backdrop {
+  background-color: black;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.add-edit-backdrop-in  {
+  transition: opacity 0.3s ease-in;
+  opacity: 0.5;
+}
+
+.add-edit-backdrop-out  {
+  transition: opacity 1.5s ease-out;
+  opacity: 0;
+}

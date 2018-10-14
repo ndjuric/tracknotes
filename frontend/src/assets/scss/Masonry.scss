@@ -1,0 +1,113 @@
+.mason {
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  display: block;
+  height: auto;
+  width: 343px;
+  margin: 0 40px 40px 0;
+  -moz-box-shadow: 2px 2px 4px #bbb;
+  -webkit-box-shadow: 2px 2px 4px #bbb;
+  box-shadow: 2px 2px 4px #bbb;
+  -moz-transition: -moz-transform .15s linear;
+  -o-transition: -o-transform .15s linear;
+  -webkit-transition: -webkit-transform .15s linear;
+}
+
+.mason-bg-white {
+  background-color: #ffffff;
+}
+
+.mason-bg-red {
+  background-color: #ffc5c0;
+}
+
+.mason-bg-blue {
+  background-color: #b7e9ff;
+}
+
+.mason-bg-grey {
+  background-color: #cfd8dc;
+}
+
+.mason h2 {
+  margin: 0;
+}
+
+.mtext {
+  word-break: break-all;
+  color: #889;
+  padding: 1em 1em 0 1em;
+}
+
+.murl {
+  word-break: break-word;
+}
+
+.mimg {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  display: block;
+}
+
+/*******/
+.mason-icon-bar {
+  visibility: hidden;
+  width: 100%;
+  background-color: #fff;
+  color: #adbec5;
+  overflow: auto;
+  opacity: 0.85;
+}
+
+.mason-icon-bar a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  font-size: 1.5em;
+  float: left;
+  padding: 10px 0 5px 20px;
+  width: 10%;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.mason-trash-full-width {
+  width: 100% !important;
+  background-color: #fff;
+  opacity: 0.65 !important;
+  bottom: 0 !important;
+  position: absolute !important;
+}
+
+.mason-trash-href {
+  width: 50% !important;
+  font-size: 1em !important;
+  padding: 10px 0 5px 10px !important;
+}
+
+.mason-trash-red {
+  text-align: left !important;
+  width: 20% !important;
+  padding-left: 0 !important;
+  color: red !important;
+}
+
+.mason-icon-bar-url {
+  visibility: hidden;
+  background-color: #1e3664;
+  opacity: 0.65;
+  bottom: 0;
+  position: absolute;
+
+}
+
+.mason:hover > .mason-icon-bar {
+  visibility: visible;
+}
+
+.mason:hover > .mason-icon-bar-url {
+  visibility: visible;
+}

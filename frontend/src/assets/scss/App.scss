@@ -1,0 +1,273 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:lighter,normal,100");
+@import '../fonts/style.css';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+fieldset {
+  width: auto;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+input[type=radio] {
+  padding: 0;
+  margin: 0 10px 0 0;
+  color: #bbc;
+}
+
+.radio-toggle {
+  color: #555 !important;
+  font-weight: 500;
+}
+
+.central-div {
+  position: relative !important;
+}
+
+.central-content {
+  display: block;
+  margin: 0 auto;
+  text-align:center;
+}
+
+.central-button {
+  font-size: 1.2em;
+  font-weight: normal;
+  background-color: #4ebd65;
+  color: white;
+  display: block;
+  height: 50px;
+  line-height: 52px;
+  text-decoration: none;
+  margin-top: 35px;
+  width: 200px;
+  border-radius: 155px;
+  text-align: center;
+}
+
+.central-h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5em;
+}
+
+.central-h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.numberCircle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 17px;
+  display: inline-block;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  padding: 5px;
+  border: 2px solid #adbec5;
+  color: #fff;
+  background-color: #adbec5;
+  text-align: center;
+}
+
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  font-size: 1em;
+}
+
+input[type=text]::placeholder {
+  color: #bbc;
+}
+
+input:focus {
+  outline: none;
+  color: #bbc;
+}
+
+.modalForm {
+  margin-top: 25px;
+}
+
+.item {
+  display: inline-block;
+  width: 150px;
+}
+
+.item > label {
+  color: #bbc;
+}
+
+label {
+  display: inline;
+}
+
+input[type=checkbox] {
+  display: inline;
+}
+
+.modal-title {
+  padding: 20px;
+}
+
+.modal-bold {
+  font-weight: bold;
+}
+
+.modal-grey {
+  color: #bbc;
+  font-size: 1.1em;
+}
+
+.hr {
+  display: block;
+  width: 100%;
+  border-top: 1px solid #eee;
+  margin: 20px 10px;
+}
+
+.hr-full {
+  display: block;
+  width: 100%;
+  border-top: 1px solid #eee;
+}
+
+.app {
+  background-color: #f3f5f7;
+  display: grid;
+  grid-template-areas: "navigation header" "navigation main";
+  grid-template-columns: 220px 1fr;
+  grid-template-rows: 100px 1fr;
+  min-height: 100vh;
+}
+
+.header-left, .header-right {
+  display: inline;
+}
+
+.header-right {
+  float: right;
+}
+
+.modal-button-div {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.0em;
+  font-weight: lighter;
+  color: #000;
+}
+
+.red-button {
+  font-size: 0.5em;
+  font-weight: normal;
+  background-color: #de6d63;
+  color: white;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  width: 150px;
+  border-radius: 155px;
+  text-align: center;
+}
+
+.green-button {
+  font-size: 0.5em;
+  font-weight: normal;
+  background-color: #4ebd65;
+  color: white;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  width: 150px;
+  border-radius: 155px;
+  text-align: center;
+}
+
+.green-submit {
+  border: none;
+  margin-bottom: 20px;
+  font-size: 0.5em;
+  font-weight: normal;
+  background-color: #4ebd65;
+  color: white;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  width: 150px;
+  border-radius: 155px;
+  text-align: center;
+}
+
+.white-button {
+  margin-bottom: 20px;
+  font-size: 0.5em;
+  font-weight: normal;
+  background-color: #ffffff;
+  border: 1px solid #bbc;
+  display: block;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  width: 100px;
+  border-radius: 155px;
+  color: #bbc;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.logo {
+  margin: 30px 20px 150px 20px;
+  transition: 3s;
+}
+
+.header {
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.0em;
+  font-weight: lighter;
+  margin-top: 20px;
+  color: #000;
+}
+
+.hg__header {
+  margin-left: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #344750;
+  font-weight: lighter;
+  grid-area: header;
+  margin-right: 40px;
+}
+
+.hg__main {
+  margin-left: 40px;
+  grid-area: main;
+  margin-right: 40px;
+}
+
+.hg__left {
+  background-color: #ffffff;
+  grid-area: navigation;
+}
+
+@media screen and (max-width: 600px) {
+  .hg {
+    grid-template-areas: "header" "navigation" "main";
+    grid-template-columns: 100%;
+    grid-template-rows: 100px 50px 1fr;
+  }
+}
+
