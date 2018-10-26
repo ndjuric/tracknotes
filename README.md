@@ -29,6 +29,7 @@ Now you have a ./tracknotes folder.
 You should now be able to access backend on http://localhost:8000
 
 ### Frontend
+Code is a mess, I'm still learning React.
 ```bash
 ~/tracknotes $ cd frontend
 ~/tracknotes/frontend $ npm install
